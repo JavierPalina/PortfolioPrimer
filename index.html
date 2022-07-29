@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Javier Palina</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="icon" href="images/javien3d2.ico"/>
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/74a12250ae.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<meta name="description" content="Javier Palina Portfolio Web">
+	<meta name="author" content="Javier Palina">
+	<meta name="copyright" content="Javier Palina">
+</head>
+<body>
+	<div id="preloader" class="preloader">
+           <div id="loader" class="loader"></div>
+    </div>
+    <!-- Header -->
+        <header class="header" id="about">
+     	    <ul>
+     	    	<li><a href="#about">About</a></li>
+     	    	<li><a href="#skills">Skills</a></li>
+     	    	<li><a href="#projects">Projects</a></li>
+     	    </ul>
+     	    <button role="link" onclick="window.location='#contact'">Contact</button>
+        </header>
+     <!-- Article -->
+        <article class="article" id="about">
+     	    <div class="container-redes">
+     		    <ul>
+                    <li><a href="https://www.linkedin.com/in/javier-palina" target="_blank">In</a></li>
+                    <li><a href="https://github.com/JavierPalina" target="_blank">Git</a></li>
+                    <div class="popup" id="popup-1">
+                         <div class="overlay"></div>
+                         <div class="content">
+                         <div class="close-btn" onclick="togglePopup()">&times;</div>
+                         <img src="images/CV.jpg">
+                    </div>
+                    <li><a href="#" onclick="togglePopup()">Cv</a></li>
+                </ul>
+                <div class="social-wrapper"></div>
+     	    </div>
+
+     	    <div class="container-text">
+      	        <h1>I'm Javier Palina.</h1>
+      	        <p>Frontend Developer.</p>   
+            </div>
+
+            <div class="pngcont">
+                <img src="images/javipj.png">
+            </div>
+
+            <div class="puntos"></div>
+
+            <div class="fondo">
+        	    <img src="images/fondo1.png">
+            </div>
+
+            <div class="fondo2">
+        	    <img src="images/fondo2.png">
+            </div>
+        </article>
+     
+     <!-- Sección Skills -->
+        <section class="section-skills" id="skills">
+            <p class="p-work">I Work with:</p>
+            <div class="container-img">
+         	    <img src="https://img.icons8.com/color/65/000000/html-5--v1.png"/>
+         	    <img src="https://img.icons8.com/color/65/000000/css3.png"/>
+         	    <img src="https://img.icons8.com/color/65/000000/javascript--v1.png"/>
+         	    <img src="https://img.icons8.com/color/65/000000/react-native.png"/>
+         	    <img src="https://img.icons8.com/glyph-neue/65/000000/github.png"/>
+                <img src="https://img.icons8.com/color/65/000000/git.png"/>
+                <img src="https://img.icons8.com/color/65/000000/firebase.png"/>
+            </div>
+
+            <div class="texto-skills">
+         	    <h2>Specializing in</h2>
+         	    <p>As a programmer, I continue to train and train to <br>
+                add new technologies to my knowledge.</p>
+            </div>
+
+            <div class="container-carpeta">
+         	    <div class="carpeta blue">
+         		    <h3 translate="no">FrontEnd<br>Developer.</h3>
+         		    <p translate="no">Responsive design, load time optimization, clean code <br>and best practices</p>
+         		    <div class="puntos2"></div>
+         		    <div class="puntos3"></div>
+         	    </div>
+
+         	    <div class="carpeta">
+         		    <h3 translate="no">React Jr.<br>Main Tech</h3>
+         		    <p>Practicing and learning every<br> day to level up to React developer<br> Mid Level</p>
+         	    </div>
+
+         	    <div class="carpeta">
+         		    <h3 translate="no">JavaScript Jr.<br>2nd Tech</h3>
+         		    <p>Practicing and learning every<br> day to level up to JavaScript<br> Mid Level</p>
+         	    </div>
+            </div>  
+        </section>
+
+     <!-- Sección proyectos -->
+        <section class="section-projects" id="projects">
+     		<h2 class="proh2">Projects</h2>
+     	    <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+                <div class="carousel-item item-1">
+                    <div class="contenido">
+                        <h2>1 of 3</h2>
+                        <div class="pcont">
+                            <p>Project</p>
+                            <p translate="no">ViperG</p>
+                        </div>
+
+                        <div class="pcont2">
+                            <p>Idea</p>
+                            <p translate="no">Ecommerce React</p>
+                        </div>
+                        <button role="link" onclick="window.open('https://viperg.netlify.app/', '_blank')">Full Project
+                        </button>
+                   <a class="arrow arrow-prev" href="#item-3"><img src="https://img.icons8.com/ios/100/ffffff/long-arrow-left.png"/></a>
+                   <a class="arrow arrow-next" href="#item-2"><img src="https://img.icons8.com/ios/100/ffffff/long-arrow-right.png"/></a>
+                </div>
+            </div>
+  
+            <div class="carousel-item item-2">
+                <div class="contenido">
+                    <h2>2 of 3</h2>
+                    <div class="pcont">
+                        <p>Project</p>
+                        <p>LoL page</p>
+                    </div>
+
+                    <div class="pcont2">
+                        <p>Idea</p>
+                        <p>Style Rework page</p>
+                    </div>
+                    <button role="link" onclick="window.open('https://javierpalina.github.io/LeagueofLegends-Rework/', '_blank')">Full Project</button>
+                </div>
+                <a class="arrow arrow-prev" href="#item-1"><img src="https://img.icons8.com/ios/100/ffffff/long-arrow-left.png"/></a>
+                <a class="arrow arrow-next" href="#item-3"><img src="https://img.icons8.com/ios/100/ffffff/long-arrow-right.png"/></a>
+            </div>
+  
+                 <div class="carousel-item item-3">
+                   <div class="contenido">
+                   <h2>3 of 3</h2>
+                   <div class="pcont">
+                   <p>Project</p>
+                   <p>Get Talent</p>
+                   </div>
+                   <div class="pcont2">
+                   <p>Idea</p>
+                   <p>Landing Page</p>
+                   </div>
+                   <button role="link" onclick="window.open('http://get-talent.tech/', '_blank')">Full Project
+                </button>
+                     <a class="arrow arrow-prev" href="#item-2"><img src="https://img.icons8.com/ios/100/ffffff/long-arrow-left.png"/></a>
+                     <a class="arrow arrow-next" href="#item-1"><img src="https://img.icons8.com/ios/100/ffffff/long-arrow-right.png"/></a>
+                   </div>
+                 </div>
+     		</div>
+     </section>
+
+     <section class="footer-contact" id="contact">
+     	<div class="caja-contact">
+     		<div class="email">
+     		<p>javierpalina0@gmail.com</p>
+     	    </div>
+     		<div class="icons-footer">
+            <a href="https://www.linkedin.com/in/javier-palina/" target="_blank"><span>LinkedIn</span></a>
+            <a href="https://github.com/JavierPalina" target="_blank"><span>Github</span></a>
+            <a href="https://dribbble.com/javierpalina01" target="_blank"><span>Dribbble</span></a>
+            <a href="https://www.behance.net/javierpalina" target="_blank"><span>Behance</span></a>
+        </div>
+     	</div>
+     </section>
+     <script type="text/javascript" src="main.js"></script>           
+     <script>
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+</script>
+<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</body>
+</html>
